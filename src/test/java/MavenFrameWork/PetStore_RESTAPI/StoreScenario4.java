@@ -31,7 +31,7 @@ public class StoreScenario4 {
 		RestAssured.baseURI=prop.getProperty("HOST");
 		Response r = given().
 		param("api_key", prop.getProperty("KEY")).
-		param("id", prop.getProperty("orderid")).
+		param("orderId", prop.getProperty("orderid")).
 		when().
 		get(resourcesAPI.resFindOrderByID()).
 		then().assertThat().statusCode(200).
