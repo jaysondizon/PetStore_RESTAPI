@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="MavenFrameWork.PetStore_RESTAPI.StoreScenario3">
+        <methods>
+          <include name="placeOrderInvalid"/>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- MavenFrameWork.PetStore_RESTAPI.StoreScenario3 -->
+      <class name="MavenFrameWork.PetStore_RESTAPI.StoreScenario1">
+        <methods>
+          <include name="getData"/>
+          <include name="viewInventory"/>
+        </methods>
+      </class> <!-- MavenFrameWork.PetStore_RESTAPI.StoreScenario1 -->
+      <class name="MavenFrameWork.PetStore_RESTAPI.StoreScenario2">
+        <methods>
+          <include name="getData"/>
+          <include name="placeOrderSuccess"/>
+        </methods>
+      </class> <!-- MavenFrameWork.PetStore_RESTAPI.StoreScenario2 -->
+      <class name="MavenFrameWork.PetStore_RESTAPI.StoreScenario4">
+        <methods>
+          <include name="getData"/>
+          <include name="getOrderByID"/>
+        </methods>
+      </class> <!-- MavenFrameWork.PetStore_RESTAPI.StoreScenario4 -->
+      <class name="MavenFrameWork.PetStore_RESTAPI.StoreScenario5">
+        <methods>
+          <include name="getData"/>
+          <include name="deleteOrderByID"/>
+        </methods>
+      </class> <!-- MavenFrameWork.PetStore_RESTAPI.StoreScenario5 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="MavenFrameWork.PetStore_RESTAPI.PetScenario1"/>
+      <class name="MavenFrameWork.PetStore_RESTAPI.PetScenario2"/>
+      <class name="MavenFrameWork.PetStore_RESTAPI.PetScenario3"/>
+      <class name="MavenFrameWork.PetStore_RESTAPI.PetScenario4"/>
+      <class name="MavenFrameWork.PetStore_RESTAPI.PetScenario5"/>
+      <class name="MavenFrameWork.PetStore_RESTAPI.PetScenario6"/>
+      <class name="MavenFrameWork.PetStore_RESTAPI.PetScenario7"/>
+      <class name="MavenFrameWork.PetStore_RESTAPI.PetScenario8"/>
+      <class name="MavenFrameWork.PetStore_RESTAPI.PetScenario9"/>
+      <class name="MavenFrameWork.PetStore_RESTAPI.PetScenario10"/>
+      <class name="MavenFrameWork.PetStore_RESTAPI.PetScenario11"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
